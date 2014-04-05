@@ -3,3 +3,19 @@ master_change yay
 again
 
 this is my first branch
+
+how to fetch and access other branches:
+
+ginger: git fetch origin
+From github.com:pamelabaker/test_repo
+ * [new branch]      test_fetch -> origin/test_fetch
+ginger: git branch
+  feature_1
+* master
+ginger: git checkout test_fetch
+Branch test_fetch set up to track remote branch test_fetch from origin.
+Switched to a new branch 'test_fetch'
+ginger: git branch
+  feature_1
+  master
+* test_fetch
